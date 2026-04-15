@@ -16,3 +16,7 @@ torch
 
 # Optional: Web UI (Streamlit)
 streamlit
+
+#API interaction
+fastapi
+uvicorn
