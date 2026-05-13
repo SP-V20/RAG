@@ -20,5 +20,3 @@ streamlit
 #API interaction
 fastapi
 uvicorn
-
-python-3.11.0
