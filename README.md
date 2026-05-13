@@ -1,3 +1,8 @@
+Application is live in https://rag-production-b9cf.up.railway.app/docs#/default/ask_ask_post
+
+
+
+
 # RAG_LC - Retrieval-Augmented Generation with LangChain
 
 A powerful Retrieval-Augmented Generation (RAG) system that combines document retrieval with language models to provide accurate, context-aware answers using LangChain and Hugging Face models.
