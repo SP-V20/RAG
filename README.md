@@ -130,4 +130,15 @@ Ensure your `.env` file contains:
 HuggingFaceToken=your_token
 ```
 
+## Procfile Explanation
+
+```Procfile
+web: uvicorn main:app --host 0.0.0.0 --port $PORT
+```
+
+- `web` — tells Railway this is the public web process
+- `uvicorn` — ASGI server used to run FastAPI
+- `main:app` — use the `app` object inside `main.py`
+- `--host 0.0.0.0` — allow external connections
+- `--port $PORT` — use Railway’s assigned port
 
