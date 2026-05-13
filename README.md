@@ -1,9 +1,16 @@
-Application is live in https://rag-production-b9cf.up.railway.app/docs#/default/ask_ask_post
+🎯 Application is live in https://rag-production-b9cf.up.railway.app/docs#/default/ask_ask_post
 
+🚀 Test your RAG API in terminal
 
+curl -X POST "https://rag-production-b9cf.up.railway.app/ask" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "question": "What is in the document?"
+  }'
 
+=======================================================================================================================================
 
-# RAG_LC - Retrieval-Augmented Generation with LangChain
+# RAG - Retrieval-Augmented Generation with LangChain
 
 A powerful Retrieval-Augmented Generation (RAG) system that combines document retrieval with language models to provide accurate, context-aware answers using LangChain and Hugging Face models.
 
